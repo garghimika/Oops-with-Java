@@ -1,11 +1,12 @@
+import java.util.Scanner;
+
 public class Sum {
     public static void main(String[] args) {
-        int a = 1;
-        int b = 2;
-        int c = 3;
-        int d = 4;
-        int e = 5;
-        int sum = a + b + c + d + e;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a : ");
+        int a = sc.nextInt();
+        int sum = (a % 10) + (a / 10 % 10) + (a / 100);
         System.out.println("Sum = " + sum);
+        sc.close();
     }
 }

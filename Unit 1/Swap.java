@@ -1,12 +1,18 @@
+import java.util.Scanner;
+
 public class Swap {
     public static void main(String[] args) {
-        int a = 3;
-        int b = 4;
-        int c ;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number: ");
+        int a = sc.nextInt();
+        System.out.print("Enter number: ");
+        int b = sc.nextInt();
+        int c;
         c = a;
         a = b;
         b = c;
         System.out.println("a = " + a);
-        System.out.println("b = " + b);   
+        System.out.println("b = " + b);  
+        sc.close(); 
     }
 }
