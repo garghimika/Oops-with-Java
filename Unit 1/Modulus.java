@@ -29,4 +29,4 @@ public class Modulus{
 
 // in boolean , true or false is written like this
 //logical AND(&&),OR(||),NOT(!)
-//bitwise AND(&),OR(|-pipeline),NOT(~ -Tilde),XOR(^),(signed = Left Shift(<<),Right Shift(>>)),(unsigned = >>>)
+//bitwise AND(&),OR(|-pipeline),NOT(~ -Tilde),XOR(^-cap),(signed = Left Shift(<<),Right Shift(>>)),(unsigned = >>>)
