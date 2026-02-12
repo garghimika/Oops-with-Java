@@ -5,7 +5,7 @@ class Scooter{
     }
 }
 class Bike extends Scooter{
-    void run(){              //overriding
+    void run(){            //overriding
         super.run();
         System.out.println("Furrr");
     }
